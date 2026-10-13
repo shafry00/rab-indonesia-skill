@@ -1,0 +1,29 @@
+{
+  "_peringatan": "DATA CONTOH ILUSTRASI untuk demo hitungan. Koefisien & harga BUKAN acuan resmi. Ganti dengan AHSP resmi (Permen PUPR 8/2023 / SNI) dan harga satuan dasar daerah proyek.",
+  "harga_dasar": {
+    "pekerja": 120000,
+    "tukang": 150000,
+    "mandor": 170000,
+    "semen_kg": 1600,
+    "pasir_m3": 280000,
+    "batu_kali_m3": 320000,
+    "air_liter": 25
+  },
+  "ahsp": {
+    "pasangan_batu_kali_1pc_4ps": {
+      "tenaga": {"pekerja": 1.5, "tukang": 0.75, "mandor": 0.075},
+      "bahan": {"batu_kali_m3": 1.2, "semen_kg": 163, "pasir_m3": 0.52},
+      "alat": {}
+    },
+    "plesteran_1pc_4ps_t15": {
+      "tenaga": {"pekerja": 0.3, "tukang": 0.15, "mandor": 0.015},
+      "bahan": {"semen_kg": 6.24, "pasir_m3": 0.024},
+      "alat": {}
+    }
+  },
+  "boq": [
+    {"uraian": "Pasangan pondasi batu kali 1PC:4PS", "satuan": "m3", "volume": 24.5, "ahsp": "pasangan_batu_kali_1pc_4ps"},
+    {"uraian": "Plesteran 1PC:4PS tebal 15 mm", "satuan": "m2", "volume": 180, "ahsp": "plesteran_1pc_4ps_t15"}
+  ],
+  "overhead": {"profit_persen": 10, "ppn_persen": 11}
+}
