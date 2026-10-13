@@ -19,6 +19,8 @@ Minta Claude: *"Buatkan RAB rumah 2 lantai 120 m² di Bandung"* atau *"Review RA
 python3 skills/rab-indonesia/scripts/rab.py skills/rab-indonesia/contoh/proyek.json --csv rab.csv
 ```
 
+Skill akan meminta data yang dibutuhkan di awal (file AHSP resmi, harga dasar daerah, tarif overhead/PPN) dan menyimpannya untuk proyek berikutnya, jadi siapkan dokumen-dokumen itu.
+
 ## Penting
 
 - Koefisien & harga di `contoh/proyek.json` adalah **contoh ilustrasi**, bukan acuan resmi. Pakai AHSP resmi (Permen PUPR 8/2023 / SNI) dan harga dasar daerah proyek.
